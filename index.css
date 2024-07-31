@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(228, 228, 53);
+  color: blue;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  background-color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #2a1818;
+}
+
+/*  */

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý Người dùng</title>
+<link rel="stylesheet" href="index.css">
+  </head>
+
+
+  <body>
+    <h1>Quản lý Người dùng</h1>
+
+    <table>
+      <tr>
+        <th>Tên người dùng</th>
+        <th>Địa chỉ email</th>
+        <th>Địa chỉ</th>
+        <th>Quản trị viên</th>
+        <th>Hình ảnh</th>
+      </tr>
+
+      <tr>
+        <td contenteditable="true">Webmaster</td>
+            <td contenteditable="true">example@email.com</td>
+            <td contenteditable="true">Demoland 123</td>
+            <td contenteditable="true">X</td>
+            <td contenteditable="true"><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg" alt="Hình ảnh
+                " width="64" height="64"></td>
+        </td>
+      </tr>
+
+      <tr>
+        <td contenteditable="true">User123</td>
+        <td contenteditable="true">example@email.com</td>
+        <td contenteditable="true">Userplace 321</td>
+        <td contenteditable="true">Null</td>
+        <td contenteditable="true"><img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg"
+           alt="Hình ảnh" width="64" height="64"></td>
+      </tr>
+
+      <tr>
+        <td contenteditable="true">AnotherUser222</td>
+        <td contenteditable="true">example@email.com</td>
+        <td contenteditable="true">AnotherPlace 21</td>
+        <td contenteditable="true">Null</td>
+        <td contenteditable="true"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2W65WRtilRqtN29Zh3fr9yjloB9UPdw9m4-ZCAXBOUsKedkKfVQd2wS7e2RLwrHafWTE&usqp=CAU" 
+          alt="Hình ảnh" width="64" height="64"></td>
+      </tr>
+
+    </table>
+
+    <h2>Thêm hoặc chỉnh sửa thông tin người dùng</h2>
+    <form>
+      <label for="input-username">Tên người dùng:</label><br />
+      <input type="text" id="input-username" /><br /><br />
+
+      <label for="input-email">Email:</label><br />
+      <input type="text" id="input-email" /><br /><br />
+
+      <label for="input-address">Địa chỉ:</label><br />
+      <input type="text" id="input-address" /><br ><br />
+
+      <label for="input-admin">Quản trị viên:</label>
+      <input type="checkbox" id="input-admin" /><br /><br />
+
+      <label for="input-image">Hình ảnh:</label><br />
+      <input type="file" id="input-image" accept="image/*" /><br /><br />
+      
+      <input type="submit" id="submit-data" value="Submit" /> 
+    </form>
+
+    <br />
+    <button id="empty-table">Làm trống bảng</button>
+  </body>
+</html>
